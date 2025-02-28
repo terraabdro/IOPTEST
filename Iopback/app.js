@@ -5,7 +5,7 @@ import AdminPage from './pages/AdminPage';
 import UserPage from './pages/UserPage';
 import { UserProvider } from './context/UserContext';
 
-function App() {
+function app() {
   return (
     <UserProvider>
       <Router>
@@ -20,4 +20,4 @@ function App() {
   );
 }
 
-export default App;
+export default app;
